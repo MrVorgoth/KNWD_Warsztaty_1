@@ -1,0 +1,45 @@
+nav.navbar {
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+nav.navbar .container-fluid {
+  padding: 1% 15%;
+  background-color: rgba(113,102,92,0.7);
+}
+
+nav.navbar .container-fluid .navbar-header a {
+  color: white;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  transition: all .5s;
+}
+
+nav.navbar .container-fluid .navbar-collapse ul {
+  float: right;
+}
+
+nav.navbar .container-fluid .navbar-collapse ul li a {
+  color: white;
+  font-size: 1.7rem;
+  font-family: 'Montserrat', sans-serif;
+  transition: all .5s;
+}
+
+nav.navbar .container-fluid .navbar-collapse ul li a:hover,
+nav.navbar .container-fluid .navbar-header a:hover {
+  color: #AA9985;
+  background-color: transparent;
+}
+
+nav.navbar .container-fluid .navbar-collapse ul li a:active,
+nav.navbar .container-fluid .navbar-collapse ul li a:focus,
+nav.navbar .container-fluid .navbar-header a:active,
+nav.navbar .container-fluid .navbar-header a:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
