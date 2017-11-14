@@ -1,0 +1,99 @@
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #fff;
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#blog {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#description {
+  margin-left: 140px;
+  margin-right: 140px;
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inner {
+  position: relative;
+  display: inline-block;
+  height: 270px;
+  width: 240px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.inner:hover {
+  background-color: #3d3732;
+  filter: brightness(40%);
+}
+
+.inner:hover p {
+  color: #fff;
+  filter: none !important;
+}
+
+.inner:hover h3 {
+  color: #efd09e;
+  filter: none !important;
+}
+
+.inner:hover a {
+  color: #efd09e !important;
+  filter: none !important;
+}
+
+.innerImg {
+  margin-top: 0px;
+}
+
+.innerTxt {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 11px;
+  text-align: left;
+}
+
+.calendar-container {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 44px;
+  width: 40px;
+}
+
+.dayNumber {
+  background-color: #414142;
+  font-size: 16px;
+  height: 22px;
+  color: white;
+  padding-top: 4px;
+  ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inner:hover .dayNumber {
+  background-color: #dbbe92;
+}
+
+.monthName {
+  background-color: #000;
+  height: 14px;
+  color: white;
+  font-size: 9px;
+  padding-top: 2px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.inner:hover .monthName {
+  background-color: #bc9d6f;
+}
